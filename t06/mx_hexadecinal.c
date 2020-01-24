@@ -1,0 +1,21 @@
+void mx_printchar(char c);
+void mx_hexadecinal(void);
+
+void main(void)
+{
+	mx_hexadecinal();
+}
+
+void mx_hexadecinal(void)
+{
+	for(char i = 48; i < 58; i++)
+	{
+		mx_printchar(i);
+	}
+	for(char i = 65; i < 71; i++)
+	{
+		mx_printchar(i);
+	}
+	mx_printchar(10);
+}
+
