@@ -1,14 +1,12 @@
 #include <stdio.h>
 
-void mx_say_wake_up(void);
-
-int main(void)
-{
-	mx_say_wake_up();
-}
-
 void mx_say_wake_up(void)
 {
-	printf("Wake up, NEO %c (^_^) / ...\nThe Matrix has you ...\n", 92);
+	printf("Wake up, NEO \\ (^_^) / ...\n");
+	printf("The matrix has you!\n");
+}
+
+int main(void) {
+	mx_say_wake_up();
 }
 
